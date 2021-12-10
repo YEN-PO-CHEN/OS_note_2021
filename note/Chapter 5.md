@@ -142,7 +142,7 @@
 
      -   **Common or private queue**
 
-         >   <img src="G:\我的雲端硬碟\_NCKU - CSIE\2021 大三上\Operate System\Markdown\image-20211209161728248.png" alt="image-20211209161728248" style="zoom:50%;" />
+         >   <img src="../image/ch5_1.png" style="zoom:50%;" />
 
          -   (左) Common ready queue ( **core** 不能同時做，存在lock)
          -   (右) Private ready queue     ( **core** 可以同時做，不存在lock)
