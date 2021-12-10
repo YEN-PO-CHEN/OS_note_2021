@@ -137,15 +137,11 @@
 #### **SMP** 【Symmetric Multiprocessing】 => **重點**
 
 1.   每個 processor 都有相同的工作( 功能 ) ，當其中一個壞了，可以轉移到其他 processor 上。( 不會crash )
-
      -   Each processor is **self-scheduling**
-
      -   **Common or private queue**
-
-         >   <img src="../image/ch5_1.png" style="zoom:50%;" />
-
-         -   (左) Common ready queue ( **core** 不能同時做，存在lock)
-         -   (右) Private ready queue     ( **core** 可以同時做，不存在lock)
+     	   <img src="../image/ch5_1.png" style="zoom:50%;" />
+		-   (左) Common ready queue ( **core** 不能同時做，存在lock)
+		-   (右) Private ready queue     ( **core** 可以同時做，不存在lock)
 
 ##### Processor Affinity ( In SMP )
 
